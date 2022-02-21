@@ -1,0 +1,125 @@
+body{
+    background-color: aqua;
+}
+
+
+.nav{
+    display: flex;
+    text-align: center;
+    background-color: ghostwhite;
+    height: 50px;
+}
+
+.titulo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.general{
+    margin-top: 15px;
+    display: flex;
+}
+
+#formulario{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn1{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn2{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn3{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn4{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombreAlumno{
+    margin-left: 50px;
+}
+
+.sexoAlumno{
+    margin-left: 45px;
+}
+
+.edadAlumno{
+    margin-left: 45px;
+}
+
+.promedioAlumno{
+    margin-left: 10px;
+}
+
+.noControlAlumno{
+    margin-left: 5px;
+}
+
+.nombreAlumno,
+.sexoAlumno,
+.edadAlumno,
+.noControlAlumno,
+.promedioAlumno{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.nombreDocente{
+    margin-left: 25px;
+}
+
+.sexoDocente{
+    margin-left: 50px;
+}
+
+.edadDocente{
+    margin-left: 50px;
+}
+
+.materiaDocente{
+    margin-left: 30px;
+}
+
+.IdDocente{
+    margin-left: 10px;
+}
+
+.nombreDocente,
+.sexoDocente,
+.edadDocente,
+.IdDocente,
+.materiaDocente{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+button span{
+    margin-left: 5px;
+}
+
