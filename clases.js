@@ -67,6 +67,7 @@ function agregarAlumno(){
     listaAlumnos.push(promedio);
     
     cleanAlumno();
+
     console.log("Alumno Agregado");
 }
 
@@ -80,7 +81,7 @@ function cleanAlumno(){
 }
 
 //Creación de la función para agregar un docente
-function agregarDocente(){
+const agregarDocente = () =>{
     //Recuperar información de los modales de docente
     //-----------------------Variables Docente-----------------------
     var nombreDocente = document.getElementById('nombreDocente').value;
@@ -100,7 +101,7 @@ function agregarDocente(){
 }
 
 //Función para limpiar campos de modal Docente
-function cleanDocente(){
+const cleanDocente =()=> {
     document.getElementById('nombreDocente').value = "";
     document.getElementById('sexoDocente').value = "";
     document.getElementById('edadDocente').value = "";
@@ -109,7 +110,7 @@ function cleanDocente(){
 }
 
     //------------------------------LLENAR TABLA ALUMNOS--------------------------------------
-    function consultaAlumnos() {
+    const consultaAlumnos = () => {
         if (listaAlumnos.length > -1) {
             //blanqueamos la tabla
             document.getElementById('tab1').innerHTML = "";
@@ -124,7 +125,7 @@ function cleanDocente(){
     }
 
     //------------------------------LLENAR TABLA DOCENTES--------------------------------------
-    function consultaDocentes() {
+    const consultaDocentes = () => {
         if (listaDocentes.length > -1) {
             //blanqueamos la tabla
             document.getElementById('tab2').innerHTML = "";
